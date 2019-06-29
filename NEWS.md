@@ -30,6 +30,8 @@ rticles 0.9
 
 - Use csl file for citations in output format `elsevier_article()` (@nuest, #233)
 
+- Added support for George Kour's arXiv preprint format (@alexpghayes, #236)
+
 rticles 0.8
 ---------------------------------------------------------------------
 
