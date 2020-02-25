@@ -14,6 +14,8 @@
 
 \title{$title$}
 
+
+
 \author{
   $for(authors)$
   $authors.name$
@@ -29,6 +31,12 @@
   $sep$ \And
   $endfor$
 }
+
+$for(header-includes)$
+$header-includes$
+$endfor$
+
+
 
 \begin{document}
 \maketitle
@@ -54,8 +62,8 @@ $endif$
 
 $body$
 
-\bibliographystyle{unsrt}
 \bibliography{$bibliography$}
+
 
 $for(include-after)$
 $include-after$
